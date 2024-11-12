@@ -1,0 +1,9 @@
+﻿  GameObject.cpp
+  Main.cpp
+  Wrapper.cpp
+     Creating library C:\Users\Ivanh\source\repos\DLL_2024_Unity\x64\Release\DLL_2024_Unity.lib and object C:\Users\Ivanh\source\repos\DLL_2024_Unity\x64\Release\DLL_2024_Unity.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DLL_2024_Unity.vcxproj -> C:\Users\Ivanh\source\repos\DLL_2024_Unity\x64\Release\DLL_2024_Unity.dll
