@@ -2,15 +2,13 @@ using UnityEngine;
 
 public class DamagePlayer : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+	[SerializeField] private int damage = 1;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	private void OnCollisionEnter(Collision collider)//deals damage if the collision has the right componant
+	{
+		if (collider.gameObject.GetComponent<PlayerController>() != null)
+		{
+			collider.gameObject.GetComponent<PlayerController>().TakeDamage(damage);
+		}
+	}
 }
